@@ -1,3 +1,38 @@
 html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+nav li a {
+  color: #0084a6;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+nav li a:hover {
+  color: #005e76;
+  border-bottom: 2px solid #005e76;
+}
+
+.japanese {
+  color: #000;
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.break {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.btn-custom {
+  color: #005e76;
+  border: 2px solid #8bc9d9;
+}
+
+.btn-custom:hover {
+  color: #005e76;
+  border: 2px solid #0084a6;
+  background-color: #8bc9d9;
+}
+
+footer small {
+  color: #333;
 }
