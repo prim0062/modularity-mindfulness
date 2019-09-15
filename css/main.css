@@ -3,7 +3,7 @@ html {
 }
 
 nav li a {
-  color: #0084a6;
+  color: #005e76;
   text-decoration: none;
   border-bottom: 2px solid #8bc9d9;
 }
@@ -19,15 +19,20 @@ nav li a:hover {
 }
 
 .break {
+  border-top: 2px solid #e2e2e2;
   border-bottom: 2px solid #e2e2e2;
 }
 
-.btn-custom {
+.break-bottom {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.btn-ghost {
   color: #005e76;
   border: 2px solid #8bc9d9;
 }
 
-.btn-custom:hover {
+.btn-ghost:hover {
   color: #005e76;
   border: 2px solid #0084a6;
   background-color: #8bc9d9;
@@ -35,4 +40,12 @@ nav li a:hover {
 
 footer small {
   color: #333;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-color: #fff;
+  }
+
 }
